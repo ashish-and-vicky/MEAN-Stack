@@ -1,0 +1,98 @@
+# Day 15
+- What is NodeJS?
+- Server Side Programming (It can connect with DB) vs Client Side Programming
+- The JS in NodeJS does not only define that it can be used only in client side
+- Backend Engineer vs Front End Engineer
+- We can use Javascript in server environment, apart from Browser only.
+- It is Asynchronous in Nature.
+
+- NodeJS vs (JAVA[Servlet, JSP], PHP, ASP, .NET, Ruby Rail)
+- Older Generation does not Understand what is callback
+-Advantage or  Disadvantage (Programming Style / Structure) :: [Scripting Language]
+
+
+Install NodeJSfrom its website and Entension of NodeJS Snippets from VS code
+
+open terminal:
+
+>node -v      //shows version of NodeJS
+
+>npm -v    //shows version of Node Package Manager
+
+
+click on the left bottom of VS code to open terminal
+make sure the type of terminal in use is not powershell
+
+
+If any error occurs:-
+
+Ctrl + P---> Select default Cmd or Command Shell
+
+> npm init   // to initialize node js...through we are trying to solve Programming Style / Structure problem
+
+> Enter		//this will create a package.json file
+
+Create a file with .js file in it
+
+We are following Naming Convention for file as:-
+-small case
+-avoid special char.(space also)
+-will follow . to add multi word filename
+-MAIN Program=> index.js first file or main.js
+
+
+Note: Run all the above commands in the present folder where you are working or where the .js file is
+
+Create an index.js file
+
+write......console.log("Hello World"); in it
+
+
+Now, to run this 
+
+> node <folder-name>/<file-name>.....//>node src/index.js...OP is shown in terminal
+
+
+Now,
+
+create another js file....1.js
+====================================================
+
+function helloWorld(){
+	console.log('I am Named Function');
+}
+
+helloWorld();
+
+=========================================================
+
+Here, we can pass any type structure eg JSON, int, float, XML
+
+
+
+What is Module? and Module Management?
+
+==> It is the connection/import, export of files with each other using module.export & require keyword
+
+
+
+In createServer part....when we create it and then type node <folder-name>/<file-name> then server gets started.
+
+After this try to type the port no with localhost:<port-no> in the browser to see the OP.
+
+
+
+What is the importance of a project file?
+
+==> It contains the package.json file which makes it special.
+
+
+All the variables and functions are private in nature.
+
+
+In our file my.module.2.js....we write module.exports.MY_APP_NAME = APP_NAME;
+...where MY_APP_NAME is obtained as a key value pain in other file.
+
+
+
+To normal objects also it will take it as key value pairs 
