@@ -1,0 +1,11 @@
+<!--Anything placed in this file becomes common for all the projects-->
+
+
+<a routerLink="/1" class="my-link">Page-1</a> <!--class="my-link" gives borders to the button-->
+<a routerLink="/2" class="my-link">Page-2</a>
+
+<input type="button" class="my-link" value="Page-3" (click)="gotoPage(3)" /> <!--"gotoPage(3)" logic is written in app.component.ts-->
+<input type="button" class="my-link" value="Page-4" (click)="gotoPage(4)" />
+
+<!--a tag which we need to write in app.component.html (root html component) if we want our app to be multipaged-->
+<router-outlet></router-outlet> 
